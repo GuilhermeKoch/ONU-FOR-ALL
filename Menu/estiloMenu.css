@@ -21,7 +21,16 @@ ul li a{
     display: block;
     text-decoration: none;
     color: black;
-    background: #fff;
+    background: orange;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+ul li a:hover{
+    display: block;
+    text-decoration: none;
+    color: black;
+    background: white;
     padding: 5px;
     border: 1px solid black;
 }
