@@ -56,7 +56,6 @@ JavaScript<br>
 Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
 
 ## Recursos de inseridos 🧰
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
 
 📝 Tarefa 1: Pagina Inicio
 
