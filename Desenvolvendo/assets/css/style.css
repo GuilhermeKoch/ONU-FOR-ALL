@@ -154,6 +154,45 @@ header{
 
 
 
+
+/* Aqui começa o main */
+
+main{
+    width: 100%;
+}
+
+.main-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-subtitle{
+    margin: 10px;
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 15%; 
+    
+}
+
+.main-content{
+    margin: 25px;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+img.img-simbolo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Aqui acaba o main */
+
+
+
+
 /* Aqui começa o Footer */
 
 footer{
