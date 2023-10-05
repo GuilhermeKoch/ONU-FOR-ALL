@@ -2,12 +2,11 @@
 ## Versão: 1.0 
 ## Status do Projeto: ⚠️ Espera 
 
-<div class="topicos" id="top">
 
 ## Tópicos
-<a href=desc>🔹 Descrição do projeto</a> 
+🔹 Descrição do projeto
 
-<a href="">🔹 Funcionalidades</a> 
+🔹 Funcionalidades
 
 🔹 Distribuição
 
@@ -20,9 +19,7 @@
 🔹 Linguagens, dependências e libs utilizadas
 
 🔹 Desenvolvedores/Contribuintes
-</div>
 
-<div id="desc"> 
 
 ## Descrição do projeto
 Onu For All é um site para navegadores, seu objetivo é divulgar o trabalho realizado por diversas Ongs pelo Brasil e demonstrar como apoiar as mesmas. O conteúdo e as ongs trabalhadas no site são focados nos Objetivos de Desenvolvimento Sustentável da Agenda 2030 da ONU, plano que aborda áreas cruciais para evolução da vida e preservação do planeta e que são propostos para adoção dos setores privado, público e sociedade.
