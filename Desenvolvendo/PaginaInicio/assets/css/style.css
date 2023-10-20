@@ -256,6 +256,18 @@ main{
     margin-top: 30px;
 }
 
+.ods-link{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(59, 112, 226);
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.ods-link:hover{
+    color: #7f37c9;
+}
+
 .site-info{
     position: relative;
     margin: 100px;
