@@ -203,6 +203,17 @@ main{
     margin: 20px;
 }
 
+.commum-line{
+    position: relative;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.li-rc{
+    position: relative;
+    margin: 20px;
+}
+
 .ODS-info{
     position: relative;
     --tw-bg-opacity: 1;
@@ -235,20 +246,20 @@ main{
 }
 
 .ODS-content-line{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .obj-ods-img{
     position: relative;
     width: 600px;
-    margin-left: 25%;
+    margin-left: 500px;
     margin-top: 30px;
 }
 
 .site-info{
+    position: relative;
     margin: 100px;
     margin-top: 50px;
-    position: relative;
 }
 
 .site-info-subtitle{
