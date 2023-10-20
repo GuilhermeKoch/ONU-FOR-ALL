@@ -161,35 +161,108 @@ main{
     width: 100%;
 }
 
-.main-title{
-    text-align: center;
+.campaing-info{
+    position: relative;
+    margin: 100px;
     margin-top: 50px;
 }
 
-.main-subtitle h2{
-    margin: 10px;
-    margin-top: 25px;
-    margin-left: 0;
+.campaing-title{
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    margin-left: 20px;
+    font-family: Inter,sans-serif;
+    font-weight: 900;
+    font-size: 3.25rem;
+    line-height: 2.5rem;
 }
 
-.main-content{
-    margin: 25px;
-    margin-top: 0;
-    margin-left: 15%;
-    margin-right: 15%;
+.campaing-subtitle-main{
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: Inter,sans-serif;
+    font-weight: 900;
+    font-size: 1.50rem;
+    line-height: 2.5rem;
 }
 
-.main-img-center img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.campaing-subtitle-content{
+    position: relative;
+    margin-top: 5px;
+    font-family: Inter,sans-serif;
+    font-weight: 900;
+    font-size: 1.50rem;
+    line-height: 2.5rem;
 }
 
-.main-list ul{
-    margin: 25px;
-    margin-left: 90px;
-    margin-right: 15%;
+.campaing-info-content{
+    position: relative;
+    margin: 20px;
+}
+
+.ODS-info{
+    position: relative;
+    --tw-bg-opacity: 1;
+    background-color: var(--color-neutral-10);
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.nav-ODS-text{
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: var(--color-neutral-40);
+}
+
+.subtitle-ODS{
+    position: relative;
+    margin-left: 20px;
+    font-family: Inter,sans-serif;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.ODS-info-content{
+    position: relative;
+    margin: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ODS-content-line{
+    margin-top: 15px;
+}
+
+.obj-ods-img{
+    position: relative;
+    width: 600px;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.site-info{
+    margin: 100px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.site-info-subtitle{
+    position: relative;
+    margin-left: 20px;
+    font-family: Inter,sans-serif;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.site-info-content{
+    position: relative;
+    margin: 20px;
 }
 
 /* Aqui acaba o main */
