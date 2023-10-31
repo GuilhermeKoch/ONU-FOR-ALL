@@ -26,24 +26,24 @@ Onu For All é um site para navegadores, seu objetivo é divulgar o trabalho rea
 </div>
 
 ## Funcionalidades ⚙️
-✔️ Funcionalidade 1
+✔️ Pagina Inicio
 
-✔️ Funcionalidade 2
+⚠️ Pagina ODS
 
-✔️ Funcionalidade 3
+⚠️ Pagina ONGS
 
-✔️ Funcionalidade 4
+⚠️ Pagina Como Ajudar
 
 ## Distribuição
-Seguir instruções da seção "Como rodar a aplicação" 
+Seguir instruções da seção "Como rodar a aplicação".
 
 ## Pré-requisitos ⚠️    
 Navegador de internet de sua preferencia;  
 Aparelho utilizado para testes.
-- Computador casual.
+- Computador Casual.
 
 ## Como rodar a aplicação 
-Para rodar o projeto, atualmente, deve acessar o Visual Studio Code, baixar a extensão Live Server, ir até o arquivo index.html clicar com o botão direito e então em open with live server e a aplicação ira rodar em uma pagina no seu navegador padrão
+Para rodar o projeto, atualmente, faz-se necessario acessar o Visual Studio Code, baixar a extensão Live Server, ir até o arquivo html desejado clicar com o botão direito e então em "open with live server" e a aplicação ira rodar em uma pagina no seu navegador padrão.
 
 ## Testes realizados
 Testes ainda não realizados
@@ -60,11 +60,7 @@ Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse
 
 📝 Tarefa 1: Pagina Inicio
 
-📝 Tarefa 2: Pagina Sobre
-
-📝 Tarefa 3: Pagina ONGs
-
-📝 Tarefa 4: Pagina Como Ajudar
+📝 Tarefa 2: Pagina Sobre (EM DESENVOLVIMENTO)
 
 ## Desenvolvedores/Contribuintes:
 GUILHERME DE OLIVEIRA KOCH<br>
