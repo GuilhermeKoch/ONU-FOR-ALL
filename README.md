@@ -28,7 +28,7 @@ Onu For All é um site para navegadores, seu objetivo é divulgar o trabalho rea
 ## Funcionalidades ⚙️
 ✔️ Pagina Inicio
 
-⚠️ Pagina ODS
+✔️ Pagina ODS
 
 ⚠️ Pagina ONGS
 
@@ -60,7 +60,7 @@ Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse
 
 📝 Tarefa 1: Pagina Inicio
 
-📝 Tarefa 2: Pagina Sobre (EM DESENVOLVIMENTO)
+📝 Tarefa 2: Pagina Sobre 
 
 ## Desenvolvedores/Contribuintes:
 GUILHERME DE OLIVEIRA KOCH<br>
