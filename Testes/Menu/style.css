@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*centralizador de conteudo*/
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*permite tirar a caixa de marcação porem continuar usando sua funcionalidade*/
+
+#checkbox-menu{
+    position: absolute;
+    opacity: 0;
+}
+
+label{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+}
+
+/*torna os span em setas do hamburguer que após transição virarão o X*/
+
+label span{
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: #f16234;
+    transition: 0.25s ease-in-out;
+}
+
+/*os proximos 3 codigos serão referentes as 3 partes do hamburguer*/
+/*cada span recebera um valor de 0 a 16 sendo 16 o valor maximo do box para assim formarem o hamburguer*/
+
+label span:nth-child(1){
+    top: 0;
+}
+
+label span:nth-child(2){
+    top: 8px;
+}
+
+label span:nth-child(3){
+    top: 16px;
+}
+
+/*aqui as 3 setas do hamburguer sofrerão uma animação toda vez que o checkbox estiver checado se tornando um X*/
+
+/*com o transform rotate a seta ira virar ao valor selecionado -45 graus e com o top 8px ira se centralizar na box*/
+
+#checkbox-menu:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px;
+}
+
+/*com o opacity em valor 0 a linha do meio do hamburguer ira desaparecer para que o X se forme sem falha*/
+
+#checkbox-menu:checked + label span:nth-child(2){
+    opacity: 0;
+}
+
+/*com o transform rotate a seta ira virar ao valor selecionado 45 graus e com o top 8px ira se centralizar na box*/
+
+#checkbox-menu:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top: 8px;
+}

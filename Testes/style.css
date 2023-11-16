@@ -1,82 +1,116 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-html, body{
-    height: 100%;
-}
-
-/*centralizador de conteudo*/
-
-.container{
-    height: 100%;
+    width: 100%;
+    height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
     justify-content: center;
 }
 
-/*permite tirar a caixa de marcação porem continuar usando sua funcionalidade*/
-
-#checkbox-menu{
-    position: absolute;
-    opacity: 0;
-}
-
-label{
-    cursor: pointer;
+.slide{
+    width: 25%;
     position: relative;
-    display: block;
-    height: 22px;
-    width: 30px;
+    transition: 2s;
 }
 
-/*torna os span em setas do hamburguer que após transição virarão o X*/
+.slide img{
+    width: 800px;
+}
 
-label span{
+.manual-navigation{
     position: absolute;
-    display: block;
-    height: 5px;
-    width: 100%;
-    border-radius: 30px;
-    background: #f16234;
-    transition: 0.25s ease-in-out;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
 }
 
-/*os proximos 3 codigos serão referentes as 3 partes do hamburguer*/
-/*cada span recebera um valor de 0 a 16 sendo 16 o valor maximo do box para assim formarem o hamburguer*/
-
-label span:nth-child(1){
-    top: 0;
+.manual-btn{
+    border: 2px solid #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
 }
 
-label span:nth-child(2){
-    top: 8px;
+.manual-btn:not(:last-child){
+    margin-right: 40px;
 }
 
-label span:nth-child(3){
-    top: 16px;
+.manual-btn:hover{
+    background-color: #FFF;
 }
 
-/*aqui as 3 setas do hamburguer sofrerão uma animação toda vez que o checkbox estiver checado se tornando um X*/
-
-/*com o transform rotate a seta ira virar ao valor selecionado -45 graus e com o top 8px ira se centralizar na box*/
-
-#checkbox-menu:checked + label span:nth-child(1){
-    transform: rotate(-45deg);
-    top: 8px;
+#radio1:checked ~ .first{
+    margin-left:0;
 }
 
-/*com o opacity em valor 0 a linha do meio do hamburguer ira desaparecer para que o X se forme sem falha*/
-
-#checkbox-menu:checked + label span:nth-child(2){
-    opacity: 0;
+#radio2:checked ~ .first{
+    margin-left:-25%;
 }
 
-/*com o transform rotate a seta ira virar ao valor selecionado 45 graus e com o top 8px ira se centralizar na box*/
+#radio3:checked ~ .first{
+    margin-left:-50%;
+}
 
-#checkbox-menu:checked + label span:nth-child(3){
-    transform: rotate(45deg);
-    top: 8px;
+#radio4:checked ~ .first{
+    margin-left:-75%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6FF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFF;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #FFF;
 }
