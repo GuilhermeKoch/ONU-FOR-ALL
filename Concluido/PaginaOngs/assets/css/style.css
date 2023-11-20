@@ -222,10 +222,18 @@ main {
 
 .introduction-content {
     position: relative;
-    margin: 100px;
+    --tw-bg-opacity: 1;
+    background-color: var(--color-neutral-10);
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.introduction-content-text {
+    position: relative;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 50px
+    margin-top: 50px;
+    color: var(--color-neutral-40);
 }
 
 .content-subtitle {
@@ -250,43 +258,43 @@ main {
 }
 
 .ongs-introduction-img {
-    width: 700px;
+    width: 100%;
     margin: 20px;
-    margin-top: 20px;
-    margin-left: 25%;
 }
 
-.ongs-content {
+/*.ongs-content {
     position: relative;
     margin: 100px;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 50px
-}
+}*/
 
-.ong-title{
+.ong-title {
     background-color: var(--color-neutral-10);
     padding: 30px 0px;
     display: flex;
     position: relative;
     border-radius: 30px;
-    box-shadow: 4px 6px 22px 0px rgba(0,0,0,0.57);
-    -webkit-box-shadow: 4px 6px 22px 0px rgba(0,0,0,0.57);
-    -moz-box-shadow: 4px 6px 22px 0px rgba(0,0,0,0.57);
-    margin: 50px auto;
+    box-shadow: 4px 6px 22px 0px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 4px 6px 22px 0px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 4px 6px 22px 0px rgba(0, 0, 0, 0.57);
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 50px;
 }
 
-.content-img-title{
+.content-img-title {
     width: 100px;
     margin-left: 10px;
     border-radius: 10px;
-    box-shadow: 4px 6px 22px 0px rgba(0,0,0,0.57);
-    -webkit-box-shadow: 4px 6px 22px 0px rgba(0,0,0,0.57);
-    -moz-box-shadow: 4px 6px 22px 0px rgba(0,0,0,0.57);
+    box-shadow: 4px 6px 22px 0px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 4px 6px 22px 0px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 4px 6px 22px 0px rgba(0, 0, 0, 0.57);
 }
 
-.content-list-title{
+.content-list-title {
     position: flex;
     margin-top: 30px;
     margin-left: 15px;
@@ -295,6 +303,42 @@ main {
     font-size: 2.25rem;
     line-height: 2.5rem;
     color: var(--color-neutral-40);
+}
+
+.ong-content-text {
+    position: relative;
+    margin: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px
+}
+
+.text-link {
+    list-style: none;
+    text-decoration: none;
+    color: #36da16;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.text-link:hover {
+    color: rgb(59, 112, 226);
+}
+
+.img-ong {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    position: relative;
+    margin: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px
+}
+
+.img-content {
+    width: 500px;
 }
 
 .slider {
@@ -402,6 +446,14 @@ main {
 
 #radio4:checked~.navigation-auto .auto-btn4 {
     background-color: #FFF;
+}
+
+.ong-model2 {
+    position: relative;
+    --tw-bg-opacity: 1;
+    background-color: #dadada;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 /* Aqui começa o Footer */
