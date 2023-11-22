@@ -1,6 +1,6 @@
 # ONU FOR ALL
 ## Versão: 1.0 
-## Status do Projeto: ⚠️ Espera 
+## Status do Projeto: ✔️ Concluido
 
 
 ## Tópicos
@@ -30,9 +30,9 @@ Onu For All é um site para navegadores, seu objetivo é divulgar o trabalho rea
 
 ✔️ Pagina ODS
 
-⚠️ Pagina ONGS
+✔️ Pagina ONGS
 
-⚠️ Pagina Como Ajudar
+✔️ Pagina Como Ajudar
 
 ## Distribuição
 Seguir instruções da seção "Como rodar a aplicação".
@@ -61,6 +61,10 @@ Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse
 📝 Tarefa 1: Pagina Inicio
 
 📝 Tarefa 2: Pagina Sobre 
+
+📝 Tarefa 3: Pagina Ongs
+
+📝 Tarefa 4: Pagina Como Ajudar
 
 ## Desenvolvedores/Contribuintes:
 GUILHERME DE OLIVEIRA KOCH<br>
